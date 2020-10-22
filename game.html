@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Math Quiz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="game.css">
+    </head>
+    <body id="background">
+        <h4 id="player1"></h4>&nbsp;&nbsp;<span id="score1user"></span>
+        <br>
+        <h4 id="player2"></h4>&nbsp;&nbsp;<span id="score2user"></span>
+        <center>
+        <div class="container">
+            <h1 class="title"><b>Math Quiz</b></h1>
+        </div>
+        <br>
+        <br>
+        <h3 id="question"></h3>
+        <br>
+        <h3 id="answer"></h3>
+        <br>
+        <br>
+        <div class="col-lg-6" id="place">            
+        </div>
+        <br><br>
+        <div id="EnterQuestion">
+        <label class="text">Number 1</label>&nbsp;&nbsp;&nbsp;&nbsp;<span><input type="number" placeholder="Enter Number Here" class="numbers" id="numberone"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select id="operation">
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">×</option>
+            <option value="4">÷</option>
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label class="text">Number 2</label>&nbsp;&nbsp;&nbsp;&nbsp;<span><input type="number" placeholder="Enter Number Here"class="numbers"id="numbertwo"></span>
+        <br><br><br><br><br>
+        <button id="buttonsend" onclick="send()">Make Question</button>
+        </div>
+
+    </center>
+    </body>
+    <script src="game.js"></script>
+</html>

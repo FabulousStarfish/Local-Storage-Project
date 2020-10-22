@@ -1,0 +1,46 @@
+#background{
+    background-image: url("gamebackground.png");
+    background-position: center;
+    background-size: cover;
+}
+.title{
+    font-size: 60px;
+}
+.text{
+    font-size: x-large;
+}
+.numbers{
+   height: 40px;
+}
+#place{
+    background-color: white;
+    border-radius: 5px;
+    border-width: 2px;
+    border-top: 5px;
+    border-style: solid;
+    padding: 10px;
+    float: none;
+    text-align: center;
+    border-color: #1E4764;
+    display: none;
+}
+#buttonsend{
+    background-color:#b2d5ad;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 1px;
+    border-style: none;
+}
+body{
+    margin: 10px;
+}
+#player2,#player1{
+display: inline-block;
+}
+#operation{
+    height:40px;
+}
+#score1user,#score2user{
+    font-size: 20px;
+    font-weight: bold;
+}

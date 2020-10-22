@@ -1,0 +1,33 @@
+.design-body{
+    background-image: url("gamebackground.png");
+    background-position: center;
+    background-size: cover;
+}
+.title{
+    font-size: 60px;
+}
+.top{
+    position: sticky;
+}
+#name1 , #name2
+{
+	display: inline-block;
+    margin-left:0px;
+    margin-right: 10px;
+}
+.logindiv
+	{
+		background: white;
+		padding: 30px;
+        float: none;
+        border-radius: 5px;
+        margin: auto;
+    }
+.loginGame{
+    background-color:#b2d5ad;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 1px;
+    border-style: none;
+}    
+    
